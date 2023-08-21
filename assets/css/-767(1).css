@@ -1,0 +1,85 @@
+/* --- source : /pages/contentlist/assets/scss/contentslist.-767.scss --- */
+.category {
+  background-color: #e0efd8;
+  padding: 1em;
+}
+.category .catName {
+  font-size: 18px;
+  color: #fff;
+  background-color: #555;
+  padding: 0.2em 1em;
+}
+.category:nth-child(odd) {
+  background-color: #ffefd2;
+}
+.tospo h1 {
+  margin: 15px;
+  width: calc(100% - 30px);
+}
+.tospo h2 {
+  width: calc(100% - 30px);
+  margin-left: 15px;
+}
+.hanrei {
+  margin: 15px;
+  font-size: 90%;
+  border-top: #eee 1px solid;
+}
+.menuWrap {
+  background-color: #fff;
+  padding: 1em;
+  margin-bottom: 2px;
+}
+.menuWrap .menu {
+  font-size: 16px;
+}
+.menuWrap .update {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border-top: #ccc 1px solid;
+  font-size: 12px;
+  color: #555;
+}
+.menuWrap table {
+  width: 100%;
+  margin-bottom: 5px;
+}
+.menuWrap table tr.header {
+  height: auto;
+}
+.menuWrap table th {
+  background-color: #5baa00;
+  font-weight: 200;
+  color: #fff;
+  text-align: center;
+}
+.menuWrap table tr.content4 th {
+  background-color: #c1a949;
+}
+.menuWrap table tr.content4 td {
+  background-color: #f3edd5;
+}
+.menuWrap table tr.content5 th {
+  background-color: #999;
+}
+.menuWrap table tr.content5 td {
+  background-color: #f6f6f6;
+}
+.menuWrap table.memberType td {
+  width: 25%;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.reportersWrap {
+  width: 100%;
+  padding: 15px;
+}
+.reportersWrap h3 {
+  background-color: #555;
+  color: #fff;
+  font-size: 16px;
+  padding: 1em;
+}
+.reportersWrap table.reporters {
+  width: 100%;
+}
