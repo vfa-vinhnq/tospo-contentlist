@@ -18,11 +18,13 @@
 			href="https://contents.tospo-keiba.jp/pages/contentlist/images/apple-touch-icon.png"
 		/>
 		<title>無料会員と有料会員（ゴールド・プラチナ）のコンテンツ一覧</title>
-		<!-- <link rel="stylesheet" href="./無料会員と有料会員（ゴールド・プラチナ）のコンテンツ一覧_files/swiper.min.css"> -->
 		<meta name="description" content="" />
 
-		<!-- <script src="./無料会員と有料会員（ゴールド・プラチナ）のコンテンツ一覧_files/jquery-3.6.0.min.js"
-		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
+		<script
+			src="https://code.jquery.com/jquery-3.6.0.min.js"
+			integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			crossorigin="anonymous"
+		></script>
 
 		<!-- Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -43,10 +45,7 @@
 			href="https://fonts.googleapis.com/css2?family=Anton&amp;display=swap"
 			rel="stylesheet"
 		/>
-		<link
-			href="./無料会員と有料会員（ゴールド・プラチナ）のコンテンツ一覧_files/yakuhan.css"
-			rel="stylesheet"
-		/>
+		<link href="./assets/css/yakuhan.css" rel="stylesheet" />
 
 		<!-- CSS -->
 		<link
@@ -146,7 +145,7 @@
 			<div class="header">
 				<div class="inner">
 					<img
-						src="./無料会員と有料会員（ゴールド・プラチナ）のコンテンツ一覧_files/sitelogo.svg"
+						src="./assets/images/sitelogo.svg"
 						alt="東スポ競馬"
 						class="logo"
 					/>
@@ -174,15 +173,15 @@
 							<td>メニュー</td>
 							<td>更新日</td>
 							<td>無料会員</td>
-							<td class="gold">ゴールド会員<br />550円</td>
-							<td class="platinum">プラチナ会員<br />1430円</td>
+							<td class="gold">ゴールド会員</td>
+							<td class="platinum">プラチナ会員</td>
 							<td>WEB<br />オリジナル<br />コンテンツ</td>
 						</tr>
 
 						<tr>
 							<td rowspan="1" class="catName content0 catName0">特別機能</td>
 							<td class="content1">
-								東京スポーツ新聞(競馬面)・PDFダウンロード
+								東スポ競馬面をＰＤＦで読み放題（全場全レースの出馬表を含む）「直前激アツ情報」…土曜日のレース傾向や情報網から日曜日の狙い馬をズバリ
 							</td>
 							<td class="content2">新聞発行日当日</td>
 							<td class="content3">-</td>
@@ -190,6 +189,7 @@
 							<td class="content5">●</td>
 							<td class="content6">●</td>
 						</tr>
+
 						<tr>
 							<td rowspan="8" class="catName content0 catName1">レース情報</td>
 							<td class="content1">出馬表</td>
@@ -259,8 +259,9 @@
 							<td class="content5">●</td>
 							<td class="content6">●</td>
 						</tr>
+
 						<tr>
-							<td rowspan="6" class="catName content0 catName0">予想</td>
+							<td rowspan="9" class="catName content0 catName0">予想</td>
 							<td class="content1">記者&amp;芸能人・予想詳細</td>
 							<td class="content2">レース前日</td>
 							<td class="content3">一部無料</td>
@@ -270,20 +271,18 @@
 						</tr>
 						<tr>
 							<td class="content1">
-								「直前激アツ情報」…土曜日のレース傾向や情報網から日曜日の狙い馬をズバリ
+								「記者の狙い目」…予想陣の推奨レースを特別公開
 							</td>
-							<td class="content2">日曜日</td>
-							<td class="content3">-</td>
-							<td class="content4">-</td>
+							<td class="content2">レース前日</td>
+							<td class="content3">一部無料</td>
+							<td class="content4">●</td>
 							<td class="content5">●</td>
 							<td class="content6">●</td>
 						</tr>
 						<tr>
-							<td class="content1">
-								「記者の狙い目」…予想陣の推奨レースをⅠPAT連携の買い目付きで特別公開
-							</td>
+							<td class="content1">爆笑問題・田中裕二の「爆勝予想」</td>
 							<td class="content2">レース前日</td>
-							<td class="content3">一部無料</td>
+							<td class="content3">-</td>
 							<td class="content4">●</td>
 							<td class="content5">●</td>
 							<td class="content6">●</td>
@@ -292,18 +291,6 @@
 							<td class="content1">
 								「激走フラグ」…出走馬の中から激走の可能性を秘める馬を一挙掲載
 							</td>
-							<td class="content2">
-								レース前日<br /><span class="small">(一覧は原則木曜)</span>
-							</td>
-							<td class="content3">一覧は無料</td>
-							<td class="content4">●</td>
-							<td class="content5">●</td>
-							<td class="content6">●</td>
-						</tr>
-						<tr>
-							<td class="content1">
-								「Next照準」…「現場ノート」の注目馬を次走出走時に紹介
-							</td>
 							<td class="content2">レース前日</td>
 							<td class="content3">-</td>
 							<td class="content4">●</td>
@@ -312,115 +299,20 @@
 						</tr>
 						<tr>
 							<td class="content1">
-								「WIN5ここ1点!」…対象レースの中で1点指名で突破できるレースを紹介
+								「今週の重賞注目馬」…東西トレセン記者が週末の注目馬をいち早く紹介
 							</td>
-							<td class="content2">レース前日</td>
+							<td class="content2">月曜日</td>
 							<td class="content3">-</td>
 							<td class="content4">●</td>
 							<td class="content5">●</td>
 							<td class="content6">●</td>
 						</tr>
 						<tr>
-							<td rowspan="16" class="catName content0 catName1">
-								ニュース&amp;コラム
-							</td>
-							<td class="content1">今週の重賞特集</td>
-							<td class="content2">随時更新</td>
-							<td class="content3">一部無料</td>
-							<td class="content4">●</td>
-							<td class="content5">●</td>
-							<td class="content6">-</td>
-						</tr>
-						<tr>
 							<td class="content1">
-								「今週の重賞注目馬」…各記者が当週の注目馬をいち早く紹介
+								難波田記者の「潜入捜査」…栗東トレセンの取材で得た取れたて情報を余すところなく紹介！
 							</td>
 							<td class="content2">火曜日</td>
-							<td class="content3">●</td>
-							<td class="content4">●</td>
-							<td class="content5">●</td>
-							<td class="content6">●</td>
-						</tr>
-						<tr>
-							<td class="content1">
-								「現場ノート」…記者が鋭くレースを分析し、次走注目馬をピックアップ
-							</td>
-							<td class="content2">火曜日</td>
-							<td class="content3">●</td>
-							<td class="content4">●</td>
-							<td class="content5">●</td>
-							<td class="content6">●</td>
-						</tr>
-						<tr>
-							<td class="content1">
-								「私たちはこう見た」渡辺薫&amp;柏木集保(レース後記)
-							</td>
-							<td class="content2">月曜日</td>
-							<td class="content3">●</td>
-							<td class="content4">●</td>
-							<td class="content5">●</td>
-							<td class="content6">-</td>
-						</tr>
-						<tr>
-							<td class="content1">
-								「あの日、あの時、あのレース」…大スポ本紙松浪大樹が思い出の重賞を振り返る
-							</td>
-							<td class="content2">月曜日</td>
-							<td class="content3">●</td>
-							<td class="content4">●</td>
-							<td class="content5">●</td>
-							<td class="content6">●</td>
-						</tr>
-						<tr>
-							<td class="content1">アーカイブコラム(競馬の達人シリーズなど)</td>
-							<td class="content2">月曜日</td>
-							<td class="content3">●</td>
-							<td class="content4">●</td>
-							<td class="content5">●</td>
-							<td class="content6">●</td>
-						</tr>
-						<tr>
-							<td class="content1">
-								「ノーザンファーム天栄発」…NF天栄場長・木實谷雄太氏コラム
-							</td>
-							<td class="content2">水曜日</td>
 							<td class="content3">-</td>
-							<td class="content4">●</td>
-							<td class="content5">●</td>
-							<td class="content6">-</td>
-						</tr>
-						<tr>
-							<td class="content1">藤井勘一郎騎手「挑戦」</td>
-							<td class="content2">木曜日</td>
-							<td class="content3">●</td>
-							<td class="content4">●</td>
-							<td class="content5">●</td>
-							<td class="content6">●</td>
-						</tr>
-						<tr>
-							<td class="content1">
-								「赤城真理子のだから競馬が好きなんです!」…大スポ赤城記者の競馬愛が全開
-							</td>
-							<td class="content2">不定期</td>
-							<td class="content3">●</td>
-							<td class="content4">●</td>
-							<td class="content5">●</td>
-							<td class="content6">●</td>
-						</tr>
-						<tr>
-							<td class="content1">
-								「帰ってきた!POG日本一吉田」…あの記者がWebでカムバック
-							</td>
-							<td class="content2">不定期</td>
-							<td class="content3">-</td>
-							<td class="content4">●</td>
-							<td class="content5">●</td>
-							<td class="content6">●</td>
-						</tr>
-						<tr>
-							<td class="content1">調教速報…有力馬の追い切りを速報でお届け</td>
-							<td class="content2">水・木曜日</td>
-							<td class="content3">●</td>
 							<td class="content4">●</td>
 							<td class="content5">●</td>
 							<td class="content6">●</td>
@@ -429,13 +321,35 @@
 							<td class="content1">
 								「調教好タイム一覧」…好時計をマークした馬を週末に先駆けて公開
 							</td>
-							<td class="content2">水・木曜日</td>
+							<td class="content2">木曜日</td>
 							<td class="content3">-</td>
 							<td class="content4">●</td>
 							<td class="content5">●</td>
 							<td class="content6">●</td>
 						</tr>
 						<tr>
+							<td class="content1">
+								「ラスト２３秒の鬼脚」…栗東坂路の番人こと清水記者が調教から〝本当に買える馬〟をプッシュ
+							</td>
+							<td class="content2">金曜日</td>
+							<td class="content3">-</td>
+							<td class="content4">●</td>
+							<td class="content5">●</td>
+							<td class="content6">●</td>
+						</tr>
+						<tr>
+							<td class="content1">
+								岡本将孝記者の「運動理論馬券」…競走馬のフォームを中心とした運動理論で予想を展開する
+							</td>
+							<td class="content2">土曜日</td>
+							<td class="content3">-</td>
+							<td class="content4">●</td>
+							<td class="content5">●</td>
+							<td class="content6">●</td>
+						</tr>
+
+						<tr>
+							<td rowspan="5" class="catName content0 catName1">ニュース</td>
 							<td class="content1">POG・若駒ジャッジ(新馬勝ち馬総点検)</td>
 							<td class="content2">火曜日</td>
 							<td class="content3">一部無料</td>
@@ -445,7 +359,7 @@
 						</tr>
 						<tr>
 							<td class="content1">POG・若駒トレジャー(今週の注目新馬)</td>
-							<td class="content2">水・金曜日</td>
+							<td class="content2">随時更新</td>
 							<td class="content3">一部無料</td>
 							<td class="content4">●</td>
 							<td class="content5">●</td>
@@ -460,19 +374,38 @@
 							<td class="content6">●</td>
 						</tr>
 						<tr>
-							<td class="content1">
-								「写真で見る馬上の景色」…東スポグループの秘蔵写真を毎日更新
-							</td>
-							<td class="content2">毎日更新</td>
+							<td class="content1">調教速報…有力馬の追い切りを速報でお届け</td>
+							<td class="content2">水・木曜日</td>
 							<td class="content3">●</td>
 							<td class="content4">●</td>
 							<td class="content5">●</td>
 							<td class="content6">●</td>
 						</tr>
 						<tr>
-							<td rowspan="5" class="catName content0 catName0">動画</td>
 							<td class="content1">
-								「重賞レース振り返り」…緑川ちひろ&amp;記者による重賞回顧
+								「写真で見る馬上の景色」…東スポグループの秘蔵写真を毎日更新
+							</td>
+							<td class="content2">月～金曜日</td>
+							<td class="content3">●</td>
+							<td class="content4">●</td>
+							<td class="content5">●</td>
+							<td class="content6">●</td>
+						</tr>
+
+						<tr>
+							<td rowspan="11" class="catName content0 catName0">連載</td>
+							<td class="content1">
+								「私たちはこう見た」渡辺薫&柏木集保(レース後記)
+							</td>
+							<td class="content2">月曜日</td>
+							<td class="content3">●</td>
+							<td class="content4">●</td>
+							<td class="content5">●</td>
+							<td class="content6">-</td>
+						</tr>
+						<tr>
+							<td class="content1">
+								東スポ看板記者・虎石晃記者が競馬論から人生哲学まで書きつづる「競馬戦記～あるいは不思議と僕らはどう生きればよいのかの大人百科」
 							</td>
 							<td class="content2">月曜日</td>
 							<td class="content3">-</td>
@@ -482,30 +415,219 @@
 						</tr>
 						<tr>
 							<td class="content1">
-								「東スポ競馬ニュース」…緑川ちひろ&amp;記者による当週のレース展望、予想
+								大スポ本紙・松浪大樹記者が長年の取材活動で培った競馬現場のアナザーストーリー「ALL
+								THINGS MUST PASS」
 							</td>
-							<td class="content2">火・土曜日</td>
+							<td class="content2">隔週月曜日</td>
 							<td class="content3">-</td>
-							<td class="content4">-</td>
+							<td class="content4">●</td>
+							<td class="content5">●</td>
+							<td class="content6">●</td>
+						</tr>
+						<tr>
+							<td class="content1">アーカイブコラム(競馬の達人シリーズなど)</td>
+							<td class="content2">月曜日</td>
+							<td class="content3">●</td>
+							<td class="content4">●</td>
+							<td class="content5">●</td>
+							<td class="content6">●</td>
+						</tr>
+						<tr>
+							<td class="content1">ＴＰＣ秋山響の「海外競馬解析」</td>
+							<td class="content2">火曜日</td>
+							<td class="content3">●</td>
+							<td class="content4">●</td>
+							<td class="content5">●</td>
+							<td class="content6">-</td>
+						</tr>
+						<tr>
+							<td class="content1">
+								「ノーザンファーム天栄発」…NF天栄場長・木實谷雄太氏コラム
+							</td>
+							<td class="content2">水曜日</td>
+							<td class="content3">-</td>
+							<td class="content4">●</td>
+							<td class="content5">●</td>
+							<td class="content6">-</td>
+						</tr>
+						<tr>
+							<td class="content1">
+								「赤城真理子のだから競馬が好きなんです!」…大スポ赤城記者の競馬愛が全開
+							</td>
+							<td class="content2">不定期</td>
+							<td class="content3">●</td>
+							<td class="content4">●</td>
 							<td class="content5">●</td>
 							<td class="content6">●</td>
 						</tr>
 						<tr>
 							<td class="content1">
-								「トレセン情報局」…当日の追い切りを現場記者が本音でリポート
+								白井寿昭元調教師と学び血統学「温故知新」…スペシャルウィークやアグネスデジタルなどの名馬を管理した白井氏と大スポ本紙・松浪大樹記者が対談形式で「血統」の魅力を分かりやすく伝える
 							</td>
-							<td class="content2">水・木曜日</td>
+							<td class="content2">木曜日</td>
 							<td class="content3">-</td>
-							<td class="content4">-</td>
+							<td class="content4">●</td>
 							<td class="content5">●</td>
 							<td class="content6">●</td>
 						</tr>
 						<tr>
 							<td class="content1">
-								「金曜東スポななめ読み」…東京女子プロレス選手が注目記事をピックアップ
+								「エビショウの毒舌講座」…ＪＲＡ通算２５４１勝の名ジョッキーで現調教師の蛯名正義がウソ偽りない本音を明かします
+							</td>
+							<td class="content2">第１木曜日</td>
+							<td class="content3">●</td>
+							<td class="content4">●</td>
+							<td class="content5">●</td>
+							<td class="content6">-</td>
+						</tr>
+						<tr>
+							<td class="content1">
+								「ドクターGURIの血統値お調べしましょ」…社内屈指の血統知識を持つドクター・グリこと笹栗康昭が当週の重賞出走馬を独自に診断！
+							</td>
+							<td class="content2">木・金曜日</td>
+							<td class="content3">●</td>
+							<td class="content4">●</td>
+							<td class="content5">●</td>
+							<td class="content6">一部WEB<br />オリジナル</td>
+						</tr>
+						<tr>
+							<td class="content1">
+								菱田裕二コラム「感謝を込めて」…現役騎手による人気連載。WEB上でファンの質問を募集中
 							</td>
 							<td class="content2">金曜日</td>
 							<td class="content3">-</td>
+							<td class="content4">●</td>
+							<td class="content5">●</td>
+							<td class="content6">●</td>
+						</tr>
+
+						<tr>
+							<td rowspan="14" class="catName content0 catName1">動画</td>
+							<td class="content1">
+								元天才ジョッキー・田原成貴氏が自身の競馬哲学を語り尽くすスペシャル動画集「田原成貴、語る」
+							</td>
+							<td class="content2">不定期</td>
+							<td class="content3">-</td>
+							<td class="content4">-</td>
+							<td class="content5">●</td>
+							<td class="content6">●</td>
+						</tr>
+						<tr>
+							<td class="content1">
+								月曜展望番組「重賞レース解説」…荒井記者と朝日奈ゆうが週末の重賞を徹底解説
+							</td>
+							<td class="content2">月曜日</td>
+							<td class="content3">●</td>
+							<td class="content4">●</td>
+							<td class="content5">●</td>
+							<td class="content6">●</td>
+						</tr>
+						<tr>
+							<td class="content1">
+								さらに深掘り「重賞レース解説」…荒井記者と朝日奈ゆうがもう一つの重賞を過去レース映像付きで解説
+							</td>
+							<td class="content2">月曜日</td>
+							<td class="content3">-</td>
+							<td class="content4">-</td>
+							<td class="content5">●</td>
+							<td class="content6">●</td>
+						</tr>
+						<tr>
+							<td class="content1">
+								「２歳新馬勝ち総点検」…先週の新馬戦勝ち馬を本紙カメラマン撮影の写真付きで振り返る（月１回の拡大版アリ）
+							</td>
+							<td class="content2">火or水曜日</td>
+							<td class="content3">●</td>
+							<td class="content4">●</td>
+							<td class="content5">●</td>
+							<td class="content6">●</td>
+						</tr>
+						<tr>
+							<td class="content1">
+								【GⅠ限定】有力馬の陣営（調教師、騎手）のＪＲＡ共同インタビュー
+							</td>
+							<td class="content2">水曜日<br />（GⅠ限定）</td>
+							<td class="content3">●</td>
+							<td class="content4">●</td>
+							<td class="content5">●</td>
+							<td class="content6">●</td>
+						</tr>
+						<tr>
+							<td class="content1">
+								元調教師・中村均氏の「馬体診断」…長年の経験で培った眼力＆独自の視点で馬体を鋭く分析！
+							</td>
+							<td class="content2">水曜日<br />（GⅠ限定）</td>
+							<td class="content3">●</td>
+							<td class="content4">●</td>
+							<td class="content5">●</td>
+							<td class="content6">●</td>
+						</tr>
+						<tr>
+							<td class="content1">
+								追い切り解説「トレセン情報局」…現場記者が出走予定馬の状態を斬る本音リポート
+							</td>
+							<td class="content2">木曜日</td>
+							<td class="content3">-</td>
+							<td class="content4">-</td>
+							<td class="content5">●</td>
+							<td class="content6">●</td>
+						</tr>
+						<tr>
+							<td class="content1">
+								トレセン記者によるインタビュー…週末レースの出走予定馬の調教師、助手、騎手などを直撃！
+							</td>
+							<td class="content2">木・金曜日<br />（不定期）</td>
+							<td class="content3">●</td>
+							<td class="content4">●</td>
+							<td class="content5">●</td>
+							<td class="content6">●</td>
+						</tr>
+						<tr>
+							<td class="content1">
+								大好評「展開予想」…元天才ジョッキー・田原成貴氏が騎手目線から鞍上の駆け引きを分析してレース展開を予想する
+							</td>
+							<td class="content2">金曜日<br />（春・秋シーズン）</td>
+							<td class="content3">●</td>
+							<td class="content4">●</td>
+							<td class="content5">●</td>
+							<td class="content6">●</td>
+						</tr>
+						<tr>
+							<td class="content1">
+								「田原成貴プラスワン」…元天才ジョッキー・田原成貴氏が土曜重賞を独自の視点で分析し、馬券の買い目を公開する
+							</td>
+							<td class="content2">金曜日</td>
+							<td class="content3">-</td>
+							<td class="content4">-</td>
+							<td class="content5">●</td>
+							<td class="content6">●</td>
+						</tr>
+						<tr>
+							<td class="content1">
+								爆笑問題・田中裕二の「爆勝予想」…大穴を狙って買い目を公開！
+							</td>
+							<td class="content2">土曜日<br />（GⅠシーズン不定期）</td>
+							<td class="content3">-</td>
+							<td class="content4">-</td>
+							<td class="content5">●</td>
+							<td class="content6">●</td>
+						</tr>
+						<tr>
+							<td class="content1">
+								ＳＫＥ４８・熊崎晴香の「ハルカ伸るか！反るか！」…競馬大好きアイドルがガチ予想！
+							</td>
+							<td class="content2">土曜日</td>
+							<td class="content3">-</td>
+							<td class="content4">-</td>
+							<td class="content5">●</td>
+							<td class="content6">●</td>
+						</tr>
+						<tr>
+							<td class="content1">
+								「タイタン競馬部」…芸能事務所「タイタン」の芸人による競馬動画
+							</td>
+							<td class="content2">不定期</td>
+							<td class="content3">●</td>
 							<td class="content4">●</td>
 							<td class="content5">●</td>
 							<td class="content6">●</td>
@@ -520,22 +642,37 @@
 							<td class="content5">●</td>
 							<td class="content6">●</td>
 						</tr>
+
 						<tr>
-							<td rowspan="2" class="catName content0 catName1">マイページ</td>
-							<td class="content1">購入履歴・戦績</td>
-							<td class="content2"></td>
+							<td rowspan="3" class="catName content0 catName0">ライブ配信</td>
+							<td class="content1">
+								元天才ジョッキー・田原成貴氏が重賞前日夜に翌日のレースを徹底解説＆予想～視聴者とチャットで交流します
+							</td>
+							<td class="content2">土曜日</td>
 							<td class="content3">●</td>
 							<td class="content4">●</td>
 							<td class="content5">●</td>
-							<td class="content6">　</td>
+							<td class="content6">●</td>
 						</tr>
 						<tr>
-							<td class="content1">IPAT連携</td>
-							<td class="content2"></td>
+							<td class="content1">
+								元天才ジョッキー・田原成貴氏がレース直前にパドック＆返し馬を見ながら解説。レース後は「祝勝会or反省会」を行う
+							</td>
+							<td class="content2">日曜日<br />（春・秋シーズン）</td>
 							<td class="content3">●</td>
 							<td class="content4">●</td>
 							<td class="content5">●</td>
-							<td class="content6">　</td>
+							<td class="content6">●</td>
+						</tr>
+						<tr>
+							<td class="content1">
+								【東スポ競馬LIVE】現場記者がパーソナリティーとなり、視聴者の質問に答えながらトレセンのマメ情報公開、パドック解説、予想などを行う
+							</td>
+							<td class="content2">日曜日<br />（春・秋シーズン）</td>
+							<td class="content3">●</td>
+							<td class="content4">●</td>
+							<td class="content5">●</td>
+							<td class="content6">●</td>
 						</tr>
 					</tbody>
 				</table>
@@ -544,7 +681,9 @@
 					<div class="category">
 						<div class="catName">特別機能</div>
 						<div class="menuWrap">
-							<div class="menu">東京スポーツ新聞(競馬面)・PDFダウンロード</div>
+							<div class="menu">
+								東スポ競馬面をＰＤＦで読み放題（全場全レースの出馬表を含む）「直前激アツ情報」…土曜日のレース傾向や情報網から日曜日の狙い馬をズバリ
+							</div>
 							<div class="update">更新日：新聞発行日当日</div>
 							<table class="typical memberType">
 								<tbody>
@@ -769,30 +908,7 @@
 						<!-- menuWrap -->
 						<div class="menuWrap">
 							<div class="menu">
-								「直前激アツ情報」…土曜日のレース傾向や情報網から日曜日の狙い馬をズバリ
-							</div>
-							<div class="update">更新日：日曜日</div>
-							<table class="typical memberType">
-								<tbody>
-									<tr class="header">
-										<th>無</th>
-										<th class="gold">G</th>
-										<th class="platinum">P</th>
-										<th>W</th>
-									</tr>
-									<tr>
-										<td class="content3">-</td>
-										<td class="content4">-</td>
-										<td class="content5">●</td>
-										<td class="content6">●</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-						<!-- menuWrap -->
-						<div class="menuWrap">
-							<div class="menu">
-								「記者の狙い目」…予想陣の推奨レースをⅠPAT連携の買い目付きで特別公開
+								「記者の狙い目」…予想陣の推奨レースを特別公開
 							</div>
 							<div class="update">更新日：レース前日</div>
 							<table class="typical memberType">
@@ -814,10 +930,8 @@
 						</div>
 						<!-- menuWrap -->
 						<div class="menuWrap">
-							<div class="menu">
-								「激走フラグ」…出走馬の中から激走の可能性を秘める馬を一挙掲載
-							</div>
-							<div class="update">更新日：レース前日(一覧は原則木曜)</div>
+							<div class="menu">爆笑問題・田中裕二の「爆勝予想」</div>
+							<div class="update">更新日：レース前日</div>
 							<table class="typical memberType">
 								<tbody>
 									<tr class="header">
@@ -827,7 +941,7 @@
 										<th>W</th>
 									</tr>
 									<tr>
-										<td class="content3">一覧は無料</td>
+										<td class="content3">-</td>
 										<td class="content4">●</td>
 										<td class="content5">●</td>
 										<td class="content6">●</td>
@@ -838,7 +952,7 @@
 						<!-- menuWrap -->
 						<div class="menuWrap">
 							<div class="menu">
-								「Next照準」…「現場ノート」の注目馬を次走出走時に紹介
+								「激走フラグ」…出走馬の中から激走の可能性を秘める馬を一挙掲載
 							</div>
 							<div class="update">更新日：レース前日</div>
 							<table class="typical memberType">
@@ -861,9 +975,101 @@
 						<!-- menuWrap -->
 						<div class="menuWrap">
 							<div class="menu">
-								「WIN5ここ1点!」…対象レースの中で1点指名で突破できるレースを紹介
+								「今週の重賞注目馬」…東西トレセン記者が週末の注目馬をいち早く紹介
 							</div>
-							<div class="update">更新日：レース前日</div>
+							<div class="update">更新日：月曜日</div>
+							<table class="typical memberType">
+								<tbody>
+									<tr class="header">
+										<th>無</th>
+										<th class="gold">G</th>
+										<th class="platinum">P</th>
+										<th>W</th>
+									</tr>
+									<tr>
+										<td class="content3">-</td>
+										<td class="content4">●</td>
+										<td class="content5">●</td>
+										<td class="content6">●</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- menuWrap -->
+						<div class="menuWrap">
+							<div class="menu">
+								難波田記者の「潜入捜査」…栗東トレセンの取材で得た取れたて情報を余すところなく紹介！
+							</div>
+							<div class="update">更新日：火曜日</div>
+							<table class="typical memberType">
+								<tbody>
+									<tr class="header">
+										<th>無</th>
+										<th class="gold">G</th>
+										<th class="platinum">P</th>
+										<th>W</th>
+									</tr>
+									<tr>
+										<td class="content3">-</td>
+										<td class="content4">●</td>
+										<td class="content5">●</td>
+										<td class="content6">●</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- menuWrap -->
+						<div class="menuWrap">
+							<div class="menu">
+								「調教好タイム一覧」…好時計をマークした馬を週末に先駆けて公開
+							</div>
+							<div class="update">更新日：木曜日</div>
+							<table class="typical memberType">
+								<tbody>
+									<tr class="header">
+										<th>無</th>
+										<th class="gold">G</th>
+										<th class="platinum">P</th>
+										<th>W</th>
+									</tr>
+									<tr>
+										<td class="content3">-</td>
+										<td class="content4">●</td>
+										<td class="content5">●</td>
+										<td class="content6">●</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- menuWrap -->
+						<div class="menuWrap">
+							<div class="menu">
+								「ラスト２３秒の鬼脚」…栗東坂路の番人こと清水記者が調教から〝本当に買える馬〟をプッシュ
+							</div>
+							<div class="update">更新日：金曜日</div>
+							<table class="typical memberType">
+								<tbody>
+									<tr class="header">
+										<th>無</th>
+										<th class="gold">G</th>
+										<th class="platinum">P</th>
+										<th>W</th>
+									</tr>
+									<tr>
+										<td class="content3">-</td>
+										<td class="content4">●</td>
+										<td class="content5">●</td>
+										<td class="content6">●</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- menuWrap -->
+						<div class="menuWrap">
+							<div class="menu">
+								岡本将孝記者の「運動理論馬券」…競走馬のフォームを中心とした運動理論で予想を展開する
+							</div>
+							<div class="update">更新日：土曜日</div>
 							<table class="typical memberType">
 								<tbody>
 									<tr class="header">
@@ -885,275 +1091,7 @@
 					</div>
 					<!-- category -->
 					<div class="category">
-						<div class="catName">ニュース&amp;コラム</div>
-						<div class="menuWrap">
-							<div class="menu">今週の重賞特集</div>
-							<div class="update">更新日：随時更新</div>
-							<table class="typical memberType">
-								<tbody>
-									<tr class="header">
-										<th>無</th>
-										<th class="gold">G</th>
-										<th class="platinum">P</th>
-										<th>W</th>
-									</tr>
-									<tr>
-										<td class="content3">一部無料</td>
-										<td class="content4">●</td>
-										<td class="content5">●</td>
-										<td class="content6">-</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-						<!-- menuWrap -->
-						<div class="menuWrap">
-							<div class="menu">
-								「今週の重賞注目馬」…各記者が当週の注目馬をいち早く紹介
-							</div>
-							<div class="update">更新日：火曜日</div>
-							<table class="typical memberType">
-								<tbody>
-									<tr class="header">
-										<th>無</th>
-										<th class="gold">G</th>
-										<th class="platinum">P</th>
-										<th>W</th>
-									</tr>
-									<tr>
-										<td class="content3">●</td>
-										<td class="content4">●</td>
-										<td class="content5">●</td>
-										<td class="content6">●</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-						<!-- menuWrap -->
-						<div class="menuWrap">
-							<div class="menu">
-								「現場ノート」…記者が鋭くレースを分析し、次走注目馬をピックアップ
-							</div>
-							<div class="update">更新日：火曜日</div>
-							<table class="typical memberType">
-								<tbody>
-									<tr class="header">
-										<th>無</th>
-										<th class="gold">G</th>
-										<th class="platinum">P</th>
-										<th>W</th>
-									</tr>
-									<tr>
-										<td class="content3">●</td>
-										<td class="content4">●</td>
-										<td class="content5">●</td>
-										<td class="content6">●</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-						<!-- menuWrap -->
-						<div class="menuWrap">
-							<div class="menu">
-								「私たちはこう見た」渡辺薫&amp;柏木集保(レース後記)
-							</div>
-							<div class="update">更新日：月曜日</div>
-							<table class="typical memberType">
-								<tbody>
-									<tr class="header">
-										<th>無</th>
-										<th class="gold">G</th>
-										<th class="platinum">P</th>
-										<th>W</th>
-									</tr>
-									<tr>
-										<td class="content3">●</td>
-										<td class="content4">●</td>
-										<td class="content5">●</td>
-										<td class="content6">-</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-						<!-- menuWrap -->
-						<div class="menuWrap">
-							<div class="menu">
-								「あの日、あの時、あのレース」…大スポ本紙松浪大樹が思い出の重賞を振り返る
-							</div>
-							<div class="update">更新日：月曜日</div>
-							<table class="typical memberType">
-								<tbody>
-									<tr class="header">
-										<th>無</th>
-										<th class="gold">G</th>
-										<th class="platinum">P</th>
-										<th>W</th>
-									</tr>
-									<tr>
-										<td class="content3">●</td>
-										<td class="content4">●</td>
-										<td class="content5">●</td>
-										<td class="content6">●</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-						<!-- menuWrap -->
-						<div class="menuWrap">
-							<div class="menu">アーカイブコラム(競馬の達人シリーズなど)</div>
-							<div class="update">更新日：月曜日</div>
-							<table class="typical memberType">
-								<tbody>
-									<tr class="header">
-										<th>無</th>
-										<th class="gold">G</th>
-										<th class="platinum">P</th>
-										<th>W</th>
-									</tr>
-									<tr>
-										<td class="content3">●</td>
-										<td class="content4">●</td>
-										<td class="content5">●</td>
-										<td class="content6">●</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-						<!-- menuWrap -->
-						<div class="menuWrap">
-							<div class="menu">
-								「ノーザンファーム天栄発」…NF天栄場長・木實谷雄太氏コラム
-							</div>
-							<div class="update">更新日：水曜日</div>
-							<table class="typical memberType">
-								<tbody>
-									<tr class="header">
-										<th>無</th>
-										<th class="gold">G</th>
-										<th class="platinum">P</th>
-										<th>W</th>
-									</tr>
-									<tr>
-										<td class="content3">-</td>
-										<td class="content4">●</td>
-										<td class="content5">●</td>
-										<td class="content6">-</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-						<!-- menuWrap -->
-						<div class="menuWrap">
-							<div class="menu">藤井勘一郎騎手「挑戦」</div>
-							<div class="update">更新日：木曜日</div>
-							<table class="typical memberType">
-								<tbody>
-									<tr class="header">
-										<th>無</th>
-										<th class="gold">G</th>
-										<th class="platinum">P</th>
-										<th>W</th>
-									</tr>
-									<tr>
-										<td class="content3">●</td>
-										<td class="content4">●</td>
-										<td class="content5">●</td>
-										<td class="content6">●</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-						<!-- menuWrap -->
-						<div class="menuWrap">
-							<div class="menu">
-								「赤城真理子のだから競馬が好きなんです!」…大スポ赤城記者の競馬愛が全開
-							</div>
-							<div class="update">更新日：不定期</div>
-							<table class="typical memberType">
-								<tbody>
-									<tr class="header">
-										<th>無</th>
-										<th class="gold">G</th>
-										<th class="platinum">P</th>
-										<th>W</th>
-									</tr>
-									<tr>
-										<td class="content3">●</td>
-										<td class="content4">●</td>
-										<td class="content5">●</td>
-										<td class="content6">●</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-						<!-- menuWrap -->
-						<div class="menuWrap">
-							<div class="menu">
-								「帰ってきた!POG日本一吉田」…あの記者がWebでカムバック
-							</div>
-							<div class="update">更新日：不定期</div>
-							<table class="typical memberType">
-								<tbody>
-									<tr class="header">
-										<th>無</th>
-										<th class="gold">G</th>
-										<th class="platinum">P</th>
-										<th>W</th>
-									</tr>
-									<tr>
-										<td class="content3">-</td>
-										<td class="content4">●</td>
-										<td class="content5">●</td>
-										<td class="content6">●</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-						<!-- menuWrap -->
-						<div class="menuWrap">
-							<div class="menu">調教速報…有力馬の追い切りを速報でお届け</div>
-							<div class="update">更新日：水・木曜日</div>
-							<table class="typical memberType">
-								<tbody>
-									<tr class="header">
-										<th>無</th>
-										<th class="gold">G</th>
-										<th class="platinum">P</th>
-										<th>W</th>
-									</tr>
-									<tr>
-										<td class="content3">●</td>
-										<td class="content4">●</td>
-										<td class="content5">●</td>
-										<td class="content6">●</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-						<!-- menuWrap -->
-						<div class="menuWrap">
-							<div class="menu">
-								「調教好タイム一覧」…好時計をマークした馬を週末に先駆けて公開
-							</div>
-							<div class="update">更新日：水・木曜日</div>
-							<table class="typical memberType">
-								<tbody>
-									<tr class="header">
-										<th>無</th>
-										<th class="gold">G</th>
-										<th class="platinum">P</th>
-										<th>W</th>
-									</tr>
-									<tr>
-										<td class="content3">-</td>
-										<td class="content4">●</td>
-										<td class="content5">●</td>
-										<td class="content6">●</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-						<!-- menuWrap -->
+						<div class="catName">ニュース</div>
 						<div class="menuWrap">
 							<div class="menu">POG・若駒ジャッジ(新馬勝ち馬総点検)</div>
 							<div class="update">更新日：火曜日</div>
@@ -1177,7 +1115,7 @@
 						<!-- menuWrap -->
 						<div class="menuWrap">
 							<div class="menu">POG・若駒トレジャー(今週の注目新馬)</div>
-							<div class="update">更新日：水・金曜日</div>
+							<div class="update">更新日：随時更新</div>
 							<table class="typical memberType">
 								<tbody>
 									<tr class="header">
@@ -1218,10 +1156,8 @@
 						</div>
 						<!-- menuWrap -->
 						<div class="menuWrap">
-							<div class="menu">
-								「写真で見る馬上の景色」…東スポグループの秘蔵写真を毎日更新
-							</div>
-							<div class="update">更新日：毎日更新</div>
+							<div class="menu">調教速報…有力馬の追い切りを速報でお届け</div>
+							<div class="update">更新日：水・木曜日</div>
 							<table class="typical memberType">
 								<tbody>
 									<tr class="header">
@@ -1240,13 +1176,59 @@
 							</table>
 						</div>
 						<!-- menuWrap -->
+						<div class="menuWrap">
+							<div class="menu">
+								「写真で見る馬上の景色」…東スポグループの秘蔵写真を毎日更新
+							</div>
+							<div class="update">更新日：月～金曜日</div>
+							<table class="typical memberType">
+								<tbody>
+									<tr class="header">
+										<th>無</th>
+										<th class="gold">G</th>
+										<th class="platinum">P</th>
+										<th>W</th>
+									</tr>
+									<tr>
+										<td class="content3">●</td>
+										<td class="content4">●</td>
+										<td class="content5">●</td>
+										<td class="content6">-</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- menuWrap -->
 					</div>
 					<!-- category -->
 					<div class="category">
-						<div class="catName">動画</div>
+						<div class="catName">連載</div>
 						<div class="menuWrap">
 							<div class="menu">
-								「重賞レース振り返り」…緑川ちひろ&amp;記者による重賞回顧
+								「私たちはこう見た」渡辺薫&柏木集保(レース後記)
+							</div>
+							<div class="update">更新日：月曜日</div>
+							<table class="typical memberType">
+								<tbody>
+									<tr class="header">
+										<th>無</th>
+										<th class="gold">G</th>
+										<th class="platinum">P</th>
+										<th>W</th>
+									</tr>
+									<tr>
+										<td class="content3">●</td>
+										<td class="content4">●</td>
+										<td class="content5">●</td>
+										<td class="content6">-</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- menuWrap -->
+						<div class="menuWrap">
+							<div class="menu">
+								東スポ看板記者・虎石晃記者が競馬論から人生哲学まで書きつづる「競馬戦記～あるいは不思議と僕らはどう生きればよいのかの大人百科」
 							</div>
 							<div class="update">更新日：月曜日</div>
 							<table class="typical memberType">
@@ -1269,9 +1251,10 @@
 						<!-- menuWrap -->
 						<div class="menuWrap">
 							<div class="menu">
-								「東スポ競馬ニュース」…緑川ちひろ&amp;記者による当週のレース展望、予想
+								大スポ本紙・松浪大樹記者が長年の取材活動で培った競馬現場のアナザーストーリー「ALL
+								THINGS MUST PASS」
 							</div>
-							<div class="update">更新日：火・土曜日</div>
+							<div class="update">更新日：隔週月曜日</div>
 							<table class="typical memberType">
 								<tbody>
 									<tr class="header">
@@ -1282,7 +1265,7 @@
 									</tr>
 									<tr>
 										<td class="content3">-</td>
-										<td class="content4">-</td>
+										<td class="content4">●</td>
 										<td class="content5">●</td>
 										<td class="content6">●</td>
 									</tr>
@@ -1291,10 +1274,52 @@
 						</div>
 						<!-- menuWrap -->
 						<div class="menuWrap">
+							<div class="menu">アーカイブコラム(競馬の達人シリーズなど)</div>
+							<div class="update">更新日：月曜日</div>
+							<table class="typical memberType">
+								<tbody>
+									<tr class="header">
+										<th>無</th>
+										<th class="gold">G</th>
+										<th class="platinum">P</th>
+										<th>W</th>
+									</tr>
+									<tr>
+										<td class="content3">●</td>
+										<td class="content4">●</td>
+										<td class="content5">●</td>
+										<td class="content6">●</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- menuWrap -->
+						<div class="menuWrap">
+							<div class="menu">ＴＰＣ秋山響の「海外競馬解析」</div>
+							<div class="update">更新日：火曜日</div>
+							<table class="typical memberType">
+								<tbody>
+									<tr class="header">
+										<th>無</th>
+										<th class="gold">G</th>
+										<th class="platinum">P</th>
+										<th>W</th>
+									</tr>
+									<tr>
+										<td class="content3">●</td>
+										<td class="content4">●</td>
+										<td class="content5">●</td>
+										<td class="content6">-</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- menuWrap -->
+						<div class="menuWrap">
 							<div class="menu">
-								「トレセン情報局」…当日の追い切りを現場記者が本音でリポート
+								「ノーザンファーム天栄発」…NF天栄場長・木實谷雄太氏コラム
 							</div>
-							<div class="update">更新日：水・木曜日</div>
+							<div class="update">更新日：水曜日</div>
 							<table class="typical memberType">
 								<tbody>
 									<tr class="header">
@@ -1305,7 +1330,30 @@
 									</tr>
 									<tr>
 										<td class="content3">-</td>
-										<td class="content4">-</td>
+										<td class="content4">●</td>
+										<td class="content5">●</td>
+										<td class="content6">-</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- menuWrap -->
+						<div class="menuWrap">
+							<div class="menu">
+								「赤城真理子のだから競馬が好きなんです!」…大スポ赤城記者の競馬愛が全開
+							</div>
+							<div class="update">更新日：不定期</div>
+							<table class="typical memberType">
+								<tbody>
+									<tr class="header">
+										<th>無</th>
+										<th class="gold">G</th>
+										<th class="platinum">P</th>
+										<th>W</th>
+									</tr>
+									<tr>
+										<td class="content3">●</td>
+										<td class="content4">●</td>
 										<td class="content5">●</td>
 										<td class="content6">●</td>
 									</tr>
@@ -1315,7 +1363,76 @@
 						<!-- menuWrap -->
 						<div class="menuWrap">
 							<div class="menu">
-								「金曜東スポななめ読み」…東京女子プロレス選手が注目記事をピックアップ
+								白井寿昭元調教師と学び血統学「温故知新」…スペシャルウィークやアグネスデジタルなどの名馬を管理した白井氏と大スポ本紙・松浪大樹記者が対談形式で「血統」の魅力を分かりやすく伝える
+							</div>
+							<div class="update">更新日：木曜日</div>
+							<table class="typical memberType">
+								<tbody>
+									<tr class="header">
+										<th>無</th>
+										<th class="gold">G</th>
+										<th class="platinum">P</th>
+										<th>W</th>
+									</tr>
+									<tr>
+										<td class="content3">-</td>
+										<td class="content4">●</td>
+										<td class="content5">●</td>
+										<td class="content6">●</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- menuWrap -->
+						<div class="menuWrap">
+							<div class="menu">
+								「エビショウの毒舌講座」…ＪＲＡ通算２５４１勝の名ジョッキーで現調教師の蛯名正義がウソ偽りない本音を明かします
+							</div>
+							<div class="update">更新日：第１木曜日</div>
+							<table class="typical memberType">
+								<tbody>
+									<tr class="header">
+										<th>無</th>
+										<th class="gold">G</th>
+										<th class="platinum">P</th>
+										<th>W</th>
+									</tr>
+									<tr>
+										<td class="content3">●</td>
+										<td class="content4">●</td>
+										<td class="content5">●</td>
+										<td class="content6">-</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- menuWrap -->
+						<div class="menuWrap">
+							<div class="menu">
+								「ドクターGURIの血統値お調べしましょ」…社内屈指の血統知識を持つドクター・グリこと笹栗康昭が当週の重賞出走馬を独自に診断！
+							</div>
+							<div class="update">更新日：水・金曜日</div>
+							<table class="typical memberType">
+								<tbody>
+									<tr class="header">
+										<th>無</th>
+										<th class="gold">G</th>
+										<th class="platinum">P</th>
+										<th>W</th>
+									</tr>
+									<tr>
+										<td class="content3">●</td>
+										<td class="content4">●</td>
+										<td class="content5">●</td>
+										<td class="content6">一部WEB<br />オリジナル</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- menuWrap -->
+						<div class="menuWrap">
+							<div class="menu">
+								菱田裕二コラム「感謝を込めて」…現役騎手による人気連載。WEB上でファンの質問を募集中
 							</div>
 							<div class="update">更新日：金曜日</div>
 							<table class="typical memberType">
@@ -1328,6 +1445,309 @@
 									</tr>
 									<tr>
 										<td class="content3">-</td>
+										<td class="content4">●</td>
+										<td class="content5">●</td>
+										<td class="content6">●</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- menuWrap -->
+					</div>
+					<!-- category -->
+					<div class="category">
+						<div class="catName">動画</div>
+						<div class="menuWrap">
+							<div class="menu">
+								元天才ジョッキー・田原成貴氏が自身の競馬哲学を語り尽くすスペシャル動画集「田原成貴、語る」
+							</div>
+							<div class="update">更新日：不定期</div>
+							<table class="typical memberType">
+								<tbody>
+									<tr class="header">
+										<th>無</th>
+										<th class="gold">G</th>
+										<th class="platinum">P</th>
+										<th>W</th>
+									</tr>
+									<tr>
+										<td class="content3">-</td>
+										<td class="content4">-</td>
+										<td class="content5">●</td>
+										<td class="content6">●</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- menuWrap -->
+						<div class="menuWrap">
+							<div class="menu">
+								月曜展望番組「重賞レース解説」…荒井記者と朝日奈ゆうが週末の重賞を徹底解説
+							</div>
+							<div class="update">更新日：月曜日</div>
+							<table class="typical memberType">
+								<tbody>
+									<tr class="header">
+										<th>無</th>
+										<th class="gold">G</th>
+										<th class="platinum">P</th>
+										<th>W</th>
+									</tr>
+									<tr>
+										<td class="content3">●</td>
+										<td class="content4">●</td>
+										<td class="content5">●</td>
+										<td class="content6">●</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- menuWrap -->
+						<div class="menuWrap">
+							<div class="menu">
+								さらに深掘り「重賞レース解説」…荒井記者と朝日奈ゆうがもう一つの重賞を過去レース映像付きで解説
+							</div>
+							<div class="update">更新日：月曜日</div>
+							<table class="typical memberType">
+								<tbody>
+									<tr class="header">
+										<th>無</th>
+										<th class="gold">G</th>
+										<th class="platinum">P</th>
+										<th>W</th>
+									</tr>
+									<tr>
+										<td class="content3">-</td>
+										<td class="content4">-</td>
+										<td class="content5">●</td>
+										<td class="content6">●</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- menuWrap -->
+						<div class="menuWrap">
+							<div class="menu">
+								「２歳新馬勝ち総点検」…先週の新馬戦勝ち馬を本紙カメラマン撮影の写真付きで振り返る（月１回の拡大版アリ）
+							</div>
+							<div class="update">更新日：火or水曜日</div>
+							<table class="typical memberType">
+								<tbody>
+									<tr class="header">
+										<th>無</th>
+										<th class="gold">G</th>
+										<th class="platinum">P</th>
+										<th>W</th>
+									</tr>
+									<tr>
+										<td class="content3">●</td>
+										<td class="content4">●</td>
+										<td class="content5">●</td>
+										<td class="content6">●</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- menuWrap -->
+						<div class="menuWrap">
+							<div class="menu">
+								【GⅠ限定】有力馬の陣営（調教師、騎手）のＪＲＡ共同インタビュー
+							</div>
+							<div class="update">更新日：水曜日（GⅠ限定）</div>
+							<table class="typical memberType">
+								<tbody>
+									<tr class="header">
+										<th>無</th>
+										<th class="gold">G</th>
+										<th class="platinum">P</th>
+										<th>W</th>
+									</tr>
+									<tr>
+										<td class="content3">●</td>
+										<td class="content4">●</td>
+										<td class="content5">●</td>
+										<td class="content6">●</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- menuWrap -->
+						<div class="menuWrap">
+							<div class="menu">
+								元調教師・中村均氏の「馬体診断」…長年の経験で培った眼力＆独自の視点で馬体を鋭く分析！
+							</div>
+							<div class="update">更新日：水曜日（GⅠ限定）</div>
+							<table class="typical memberType">
+								<tbody>
+									<tr class="header">
+										<th>無</th>
+										<th class="gold">G</th>
+										<th class="platinum">P</th>
+										<th>W</th>
+									</tr>
+									<tr>
+										<td class="content3">●</td>
+										<td class="content4">●</td>
+										<td class="content5">●</td>
+										<td class="content6">●</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- menuWrap -->
+						<div class="menuWrap">
+							<div class="menu">
+								追い切り解説「トレセン情報局」…現場記者が出走予定馬の状態を斬る本音リポート
+							</div>
+							<div class="update">更新日：木曜日</div>
+							<table class="typical memberType">
+								<tbody>
+									<tr class="header">
+										<th>無</th>
+										<th class="gold">G</th>
+										<th class="platinum">P</th>
+										<th>W</th>
+									</tr>
+									<tr>
+										<td class="content3">-</td>
+										<td class="content4">-</td>
+										<td class="content5">●</td>
+										<td class="content6">●</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- menuWrap -->
+						<div class="menuWrap">
+							<div class="menu">
+								トレセン記者によるインタビュー…週末レースの出走予定馬の調教師、助手、騎手などを直撃！
+							</div>
+							<div class="update">更新日：木・金曜日（不定期）</div>
+							<table class="typical memberType">
+								<tbody>
+									<tr class="header">
+										<th>無</th>
+										<th class="gold">G</th>
+										<th class="platinum">P</th>
+										<th>W</th>
+									</tr>
+									<tr>
+										<td class="content3">●</td>
+										<td class="content4">●</td>
+										<td class="content5">●</td>
+										<td class="content6">●</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- menuWrap -->
+						<div class="menuWrap">
+							<div class="menu">
+								大好評「展開予想」…元天才ジョッキー・田原成貴氏が騎手目線から鞍上の駆け引きを分析してレース展開を予想する
+							</div>
+							<div class="update">更新日：金曜日（春・秋シーズン）</div>
+							<table class="typical memberType">
+								<tbody>
+									<tr class="header">
+										<th>無</th>
+										<th class="gold">G</th>
+										<th class="platinum">P</th>
+										<th>W</th>
+									</tr>
+									<tr>
+										<td class="content3">●</td>
+										<td class="content4">●</td>
+										<td class="content5">●</td>
+										<td class="content6">●</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- menuWrap -->
+						<div class="menuWrap">
+							<div class="menu">
+								「田原成貴プラスワン」…元天才ジョッキー・田原成貴氏が土曜重賞を独自の視点で分析し、馬券の買い目を公開する
+							</div>
+							<div class="update">更新日：金曜日</div>
+							<table class="typical memberType">
+								<tbody>
+									<tr class="header">
+										<th>無</th>
+										<th class="gold">G</th>
+										<th class="platinum">P</th>
+										<th>W</th>
+									</tr>
+									<tr>
+										<td class="content3">-</td>
+										<td class="content4">-</td>
+										<td class="content5">●</td>
+										<td class="content6">●</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- menuWrap -->
+						<div class="menuWrap">
+							<div class="menu">
+								爆笑問題・田中裕二の「爆勝予想」…大穴を狙って買い目を公開！
+							</div>
+							<div class="update">更新日：土曜日（GⅠシーズン不定期）</div>
+							<table class="typical memberType">
+								<tbody>
+									<tr class="header">
+										<th>無</th>
+										<th class="gold">G</th>
+										<th class="platinum">P</th>
+										<th>W</th>
+									</tr>
+									<tr>
+										<td class="content3">-</td>
+										<td class="content4">-</td>
+										<td class="content5">●</td>
+										<td class="content6">●</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- menuWrap -->
+						<div class="menuWrap">
+							<div class="menu">
+								ＳＫＥ４８・熊崎晴香の「ハルカ伸るか！反るか！」…競馬大好きアイドルがガチ予想！
+							</div>
+							<div class="update">更新日：土曜日</div>
+							<table class="typical memberType">
+								<tbody>
+									<tr class="header">
+										<th>無</th>
+										<th class="gold">G</th>
+										<th class="platinum">P</th>
+										<th>W</th>
+									</tr>
+									<tr>
+										<td class="content3">-</td>
+										<td class="content4">-</td>
+										<td class="content5">●</td>
+										<td class="content6">●</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- menuWrap -->
+						<div class="menuWrap">
+							<div class="menu">
+								「タイタン競馬部」…芸能事務所「タイタン」の芸人による競馬動画
+							</div>
+							<div class="update">更新日：不定期</div>
+							<table class="typical memberType">
+								<tbody>
+									<tr class="header">
+										<th>無</th>
+										<th class="gold">G</th>
+										<th class="platinum">P</th>
+										<th>W</th>
+									</tr>
+									<tr>
+										<td class="content3">●</td>
 										<td class="content4">●</td>
 										<td class="content5">●</td>
 										<td class="content6">●</td>
@@ -1362,10 +1782,12 @@
 					</div>
 					<!-- category -->
 					<div class="category">
-						<div class="catName">マイページ</div>
+						<div class="catName">ライブ配信</div>
 						<div class="menuWrap">
-							<div class="menu">購入履歴・戦績</div>
-							<div class="update">更新日：</div>
+							<div class="menu">
+								元天才ジョッキー・田原成貴氏が重賞前日夜に翌日のレースを徹底解説＆予想～視聴者とチャットで交流します
+							</div>
+							<div class="update">更新日：土曜日</div>
 							<table class="typical memberType">
 								<tbody>
 									<tr class="header">
@@ -1378,15 +1800,17 @@
 										<td class="content3">●</td>
 										<td class="content4">●</td>
 										<td class="content5">●</td>
-										<td class="content6">　</td>
+										<td class="content6">●</td>
 									</tr>
 								</tbody>
 							</table>
 						</div>
 						<!-- menuWrap -->
 						<div class="menuWrap">
-							<div class="menu">IPAT連携</div>
-							<div class="update">更新日：</div>
+							<div class="menu">
+								元天才ジョッキー・田原成貴氏がレース直前にパドック＆返し馬を見ながら解説。レース後は「祝勝会or反省会」を行う
+							</div>
+							<div class="update">更新日：日曜日（春・秋シーズン）</div>
 							<table class="typical memberType">
 								<tbody>
 									<tr class="header">
@@ -1399,7 +1823,30 @@
 										<td class="content3">●</td>
 										<td class="content4">●</td>
 										<td class="content5">●</td>
-										<td class="content6">　</td>
+										<td class="content6">●</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- menuWrap -->
+						<div class="menuWrap">
+							<div class="menu">
+								【東スポ競馬LIVE】現場記者がパーソナリティーとなり、視聴者の質問に答えながらトレセンのマメ情報公開、パドック解説、予想などを行う
+							</div>
+							<div class="update">更新日：日曜日（春・秋シーズン）</div>
+							<table class="typical memberType">
+								<tbody>
+									<tr class="header">
+										<th>無</th>
+										<th class="gold">G</th>
+										<th class="platinum">P</th>
+										<th>W</th>
+									</tr>
+									<tr>
+										<td class="content3">●</td>
+										<td class="content4">●</td>
+										<td class="content5">●</td>
+										<td class="content6">●</td>
 									</tr>
 								</tbody>
 							</table>
@@ -1408,7 +1855,8 @@
 					</div>
 					<!-- category -->
 				</div>
-				<h2>記者別コンテンツ一覧</h2>
+				<!-- TODO: Delete reporter table -->
+				<!-- <h2>記者別コンテンツ一覧</h2>
 
 				<table class="typical reporters pc">
 					<tbody>
@@ -1815,10 +2263,10 @@
 							</tbody>
 						</table>
 					</div>
-				</div>
+				</div> -->
 
 				<div class="closeWrap">
-					<a href="javascript:window.close();">閉じる</a>
+					<a href="javascript:window.close()">閉じる</a>
 				</div>
 			</div>
 
@@ -1826,7 +2274,7 @@
 				<div class="footerInfo inviewTarget">
 					<div>
 						<img
-							src="./無料会員と有料会員（ゴールド・プラチナ）のコンテンツ一覧_files/logo-border.svg"
+							src="./assets/images/logo-border.svg"
 							alt="東スポ競馬"
 							class="logo"
 						/>
